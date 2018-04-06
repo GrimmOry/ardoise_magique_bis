@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ardoise Magique</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="font_awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h1><i class="fa fa-paint-brush" aria-hidden="true"></i>Ardoise Magique :-)</h1>
+
+    <canvas id="my-canvas" width="900" height="600"> 
+        Si tu vois ce message, ton navigateur ne supporte pas le Canvas.
+    </canvas>
+
+    <canvas class="hide" id="colorPalette" width="400" height="400">
+        Si tu vois ce message, ton navigateur ne supporte pas le Canvas.
+    </canvas>
+
+
+    <main>
+        <nav class="outils">
+
+            <p>Outils</p>
+
+            <button id="gomme"><i class="fa fa-eraser" aria-hidden="true"></i></button>
+
+            <button id="tableauCouleur"><i class="fa fa-eyedropper" aria-hidden="true"></i></button>
+
+        </nav>
+
+        <nav class="palette">
+
+            <p>Couleur</p>
+
+            <div class="couleurs" id="palette1" data-color="black"></div>
+
+            <div class="couleurs" id="palette2" data-color="#5C2121"></div>
+
+            <div class="couleurs" id="palette3" data-color="#B9121B"></div>
+
+            <div class="couleurs" id="palette4" data-color="#FFBD07"></div>
+
+            <div class="couleurs" id="palette5" data-color="#13B813"></div>
+
+            <div class="couleurs" id="palette6" data-color="#029E9A"></div>
+
+            <div class="couleurs" id="palette7" data-color="#0378A6"></div>
+
+        </nav>
+
+        <nav class="trait">
+
+            <p>Epaisseur</p>
+
+            <button class="epaisseurs" id="fin" data-size="1">Fin</button>
+
+            <button class="epaisseurs" id="normal" data-size="2">Normal</button>
+
+            <button class="epaisseurs" id="epais" data-size="5">Epais</button>
+
+        </nav>
+
+    </main>
+
+
+
+
+
+
+    <!--jQuery et lodash-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<!--    <script src="js/lodash.min.js"></script>-->
+
+
+    <!--Classes-->
+    <script type="text/javascript" src="js/TableauBlanc.class.js"></script>
+    <script type="text/javascript" src="js/Stylo.class.js"></script>
+    <script type="text/javascript" src="js/Palette.class.js"></script>
+    <script type="text/javascript" src="js/Programme.class.js"></script>
+
+
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>

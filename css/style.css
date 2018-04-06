@@ -1,0 +1,98 @@
+/*Polices de caractères*/
+
+@font-face {
+    font-family: Acme;
+    src: url(fonts/Acme-Regular.ttf);
+}
+
+/*Générale*/
+
+body {
+    background-color: #ecf0f1;
+    width: 90%;
+    margin: auto;
+    font-family: 'Acme', cursive;
+}
+
+h1 {
+    color: orangered;
+    font-size: 40px;
+}
+
+p {
+    color: lightseagreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*Tableau*/
+
+canvas {
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+}
+
+#colorPalette {
+    margin-left: 20px;
+    cursor: crosshair;
+}
+
+.hide {
+    display: none;
+}
+
+
+/*Outils*/
+
+main {
+    border-top: 1px solid #333;
+    margin: 25px 0 0;
+    width: 80%;
+}
+
+nav {
+    margin: 10px 0 5px 0;
+    display: inline-block;
+    margin: 0 50px 0 0;
+    vertical-align: top;
+}
+
+
+/*Palette*/
+
+nav div {
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+#palette1 {
+    background-color: #000;
+}
+
+#palette2 {
+    background-color: #5c2121;
+}
+
+#palette3 {
+    background-color: #b9121b;
+}
+
+#palette4 {
+    background-color: #ffbd07;
+}
+
+#palette5 {
+    background-color: #13b813;
+}
+
+#palette6 {
+    background-color: #029e9a;
+}
+
+#palette7 {
+    background-color: #0378a6;
+}
